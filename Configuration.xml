@@ -118,7 +118,37 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>Мастер</Subsystem>
+			<Subsystem>Кадры</Subsystem>
+			<Subsystem>Финансы</Subsystem>
+			<Subsystem>Логистика</Subsystem>
+			<Subsystem>Все</Subsystem>
+			<Subsystem>ПриемВыдача</Subsystem>
+			<CommandGroup>Аппаратура</CommandGroup>
+			<Constant>НаименованиеФирмы</Constant>
+			<Constant>Адрес</Constant>
+			<Constant>Телефон</Constant>
+			<Constant>ЭлектроПочта</Constant>
+			<Constant>ИНН</Constant>
+			<Constant>КПП</Constant>
 			<CommonForm>ФормаAbout</CommonForm>
+			<Catalog>Сотрудники</Catalog>
+			<Catalog>ФизЛица</Catalog>
+			<Catalog>ЮрЛица</Catalog>
+			<Catalog>Склады</Catalog>
+			<Catalog>ВидыАппаратуры</Catalog>
+			<Catalog>Запчасти</Catalog>
+			<Catalog>Поставщики</Catalog>
+			<Catalog>ВидыРасчета</Catalog>
+			<Catalog>ВидыРемонта</Catalog>
+			<Catalog>Работы</Catalog>
+			<Catalog>МоделиАппаратуры</Catalog>
+			<Catalog>Изготовители</Catalog>
+			<Document>АктПриема</Document>
+			<Document>ЗаказНаряд</Document>
+			<Document>АктПереводаПоДолжности</Document>
+			<Document>Больничный</Document>
+			<Enum>Должность</Enum>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
