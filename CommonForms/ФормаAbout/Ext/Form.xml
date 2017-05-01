@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<LabelDecoration name="AboutAbout" id="13">
+			<Font ref="style:NormalTextFont" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>автоматизация сервисного центра</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="AboutAboutКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="AboutAboutРасширеннаяПодсказка" id="15"/>
+		</LabelDecoration>
+		<LabelDecoration name="AboutAbout1" id="16">
+			<Font ref="style:NormalTextFont" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>по обслуживанию и ремонту</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="AboutAbout1КонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="AboutAbout1РасширеннаяПодсказка" id="18"/>
+		</LabelDecoration>
+		<LabelDecoration name="AboutAbout2" id="19">
+			<Font ref="style:NormalTextFont" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>бытовой и офисной техники</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="AboutAbout2КонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="AboutAbout2РасширеннаяПодсказка" id="21"/>
+		</LabelDecoration>
+		<LabelDecoration name="AboutModule" id="1">
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>конфигурация: РемСервис (демо)</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="AboutModuleКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="AboutModuleРасширеннаяПодсказка" id="3"/>
+		</LabelDecoration>
+		<LabelDecoration name="AboutVersion" id="4">
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>версия 0.0.1</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="AboutVersionКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="AboutVersionРасширеннаяПодсказка" id="6"/>
+		</LabelDecoration>
+		<LabelDecoration name="AboutCopyright" id="7">
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>(c) Рарус (Самара)</v8:content>
+				</v8:item>
+			</Title>
+			<Hyperlink>true</Hyperlink>
+			<ContextMenu name="AboutCopyrightКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="AboutCopyrightРасширеннаяПодсказка" id="9"/>
+			<Events>
+				<Event name="Click">OnRarus</Event>
+			</Events>
+		</LabelDecoration>
+		<LabelDecoration name="AboutAuthor" id="10">
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>разработчик: Понятов Д.А.</v8:content>
+				</v8:item>
+			</Title>
+			<Hyperlink>true</Hyperlink>
+			<ContextMenu name="AboutAuthorКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="AboutAuthorРасширеннаяПодсказка" id="12"/>
+			<Events>
+				<Event name="Click">OnAuthor</Event>
+			</Events>
+		</LabelDecoration>
+	</ChildItems>
+	<Attributes/>
+</Form>

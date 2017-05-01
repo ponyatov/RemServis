@@ -118,6 +118,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<CommonForm>ФормаAbout</CommonForm>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
